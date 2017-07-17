@@ -55,7 +55,8 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'cakesbaku@gmail.com', 'name' => 'Reset'],
+
     /*
     |--------------------------------------------------------------------------
     | E-Mail Encryption Protocol

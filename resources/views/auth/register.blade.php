@@ -92,7 +92,6 @@
 
                             <div class="col-md-6">
                                 <select type="text" name="category" placeholder="Kateqoriyanız" class="r-form-last-name form-control" id="category">
-                                    <option value="categ">Kateqoriyanız :</option>
                                     <option value="1"> - Repetitor Kimi Fəaliyyət</option>
                                     <option value="2"> - Təhsil Almaq İstəyirəm</option>
                                     <option value="3"> - Valideyn Kimi Fəaliyyət</option>

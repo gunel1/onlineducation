@@ -11,28 +11,41 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/home', function () {
+    return view('home.index');
 });
 
+Route::get('/', function () {
+    return view('home.index');
+});
+Route::get('/adminpanel', function () {
+    return view('admin.index');
+});
+
+Route::get('/userpanel', function () {
+    return view('home.index');
+});
 Route::get('/aboutus', function () {
-    return view('aboutus');
+    return view('home.aboutus');
 });
 
 Route::get('/service', function () {
-    return view('service');
+    return view('home.service');
 });
 
 Route::get('/ourteam', function () {
-    return view('ourteam');
+    return view('home.ourteam');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('home.contact');
 });
 
 Route::post('/sendemail','MailController@sendemail');
 
 Auth::routes();
 
-Route::get('/admin', 'HomeController@index')->name('home');
+//Route::get('/admin', 'HomeController@index')->name('home');
+Route::get('/403',function (){
+    return view('errors.403');
+});

@@ -39,11 +39,11 @@ class LoginController extends Controller
 
     protected function redirectTo(){
 
-        if(Auth::user()->role->name == 'pupil'  || Auth::user()->role->name == 'parent') {
-            return '/contact';
+        if(Auth::user()->isPupil() || Auth::user()->isParent()) {
+            return '/userpanel';
         }
-        elseif(Auth::user()->role->name == 'admin' || Auth::user()->role->name == 'teacher' ){
-            return '/ourteam';
+        elseif(Auth::user()->isAdmin() || Auth::user()->isTeacher() ){
+            return '/adminpanel';
         }
     }
 }

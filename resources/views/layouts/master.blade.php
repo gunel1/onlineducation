@@ -78,7 +78,7 @@
                     @endif
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href={{URL::to('/')}}><i class="fa fa-home"></i> Ana Səhifə</a></li>
+                    <li class="active"><a href={{URL::to('/home')}}><i class="fa fa-home"></i> Ana Səhifə</a></li>
                     <li><a href={{URL::to('/service')}}>Xidmətlərimiz</a></li>
                     <li><a href={{URL::to('/aboutus')}}>Haqqımızda</a></li>
                     <li><a href={{URL('/ourteam')}}>Komandamız</a></li>

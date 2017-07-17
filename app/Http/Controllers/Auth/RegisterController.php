@@ -55,6 +55,7 @@ class RegisterController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
+            'category' =>'required'
         ]);
     }
 
@@ -103,11 +104,11 @@ class RegisterController extends Controller
 
     protected function redirectTo(){
 
-        if(Auth::user()->role->name == 'pupil'  || Auth::user()->role->name == 'parent') {
-            return '/';
+        if(Auth::user()->isPupil()  || Auth::user()->isParent()) {
+            return '/userpanel';
         }
-        elseif(Auth::user()->role->name == 'admin' || Auth::user()->role->name == 'teacher' ){
-            return '/admin';
+        elseif(Auth::user()->isAdmin() || Auth::user()->isTeacher() ){
+            return '/adminpanel';
         }
     }
 }
