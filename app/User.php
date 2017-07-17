@@ -50,7 +50,7 @@ class User extends Authenticatable
         return false;
     }
     public function isPupil(){
-        if($this->role->name=='parent'){
+        if($this->role->name=='pupil'){
             return true;
         }
         return false;

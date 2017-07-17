@@ -18,9 +18,7 @@ Route::get('/home', function () {
 Route::get('/', function () {
     return view('home.index');
 });
-Route::get('/adminpanel', function () {
-    return view('admin.index');
-});
+Route::get('/adminpanel','AdminController@index');
 
 Route::get('/userpanel', function () {
     return view('home.index');

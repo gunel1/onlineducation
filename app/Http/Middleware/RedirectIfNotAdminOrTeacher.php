@@ -2,7 +2,7 @@
 namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Support\Facades\Auth;
-class RedirectIfNotAdminOrStore
+class RedirectIfNotAdminOrTeacher
 {
     /**
      * Handle an incoming request.
@@ -13,7 +13,7 @@ class RedirectIfNotAdminOrStore
      */
     public function handle($request, Closure $next)
     {
-        if (Auth::user()->isUser()) {
+        if (Auth::user()->isPupil()|| Auth::user()->isParent()) {
             return redirect('/403');
         }
         return $next($request);
