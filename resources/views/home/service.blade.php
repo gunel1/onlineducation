@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', "Xidmətlərimiz|Onlayn Təhsil")
+@section('title', "Xidmətlərimiz | Onlayn Təhsil")
 
 @section('content')
 
@@ -26,7 +26,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/home/icon1.png" alt="">
                     </div>
-                    <h2><a href="teachers/teachers.html">Müəllim Axtarışı</a></h2>
+                    <h2><a href="{{URL::to('/teacher')}}">Müəllim Axtarışı</a></h2>
                     <p>Axtardığınız tədris və ya təhsil üzrə ən mükəmməl tədris proqramlarına malik müəllimləri görə bilərsiniz. Sadəcə daxil olub kateqoriyanızı müəyyənləşdirmək kifayətdir. </p>
                 </div>
             </div>
