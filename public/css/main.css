@@ -201,7 +201,7 @@
 }
 
 .social-icons ul li{
-  padding: 0 10px;
+  padding: 10px;
 
 }
 
@@ -211,7 +211,7 @@
 }
 
 .social-icons ul li a{
-  font-size: 18px;
+  font-size: 40px;
   color: cornsilk;
   padding: 0;
 }
@@ -228,18 +228,19 @@
   color:#A22523;
 }
 
-.social-icons ul li a:hover .fa-dribbble {
-  color:#E94989;
+.social-icons ul li a:hover .fa-whatsapp {
+  color:limegreen;
 }
 
-.social-icons ul li a:hover .fa-linkedin {
-  color:#006DC0;
+.social-icons ul li a:hover .fa-instagram {
+  color: greenyellow;
 }
 
 .social-icons ul li a:hover,
 .social-icons ul li a:focus{  
   background: none;
 }
+
 
 #header .navbar {
   background: none;
@@ -756,7 +757,7 @@ ul.sub-menu {
 }
 
 #team {
-  padding: 85px 0;
+  padding: 0px 0;
 }
 
 #team-carousel {
@@ -864,9 +865,9 @@ ul.sub-menu {
 
 .person-info h3 {
   font-size: 16px;
-  color: #686868;
+  color: lavenderblush;
   font-weight: 300;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 
@@ -2679,7 +2680,7 @@ span.stButton_gradient,
 }
 
 .panel-default>.panel-heading{
-  background-color: transparent;
+  background-color: lavenderblush;
   border-top: 1px solid #eee;
 }
 

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-    @section('title', "Ana Səhifə|Onlayn Təhsil")
+    @section('title', "Ana Səhifə | Onlayn Təhsil")
 
 @section('content')
 <section id="home-slider">

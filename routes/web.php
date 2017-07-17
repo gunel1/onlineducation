@@ -47,3 +47,6 @@ Auth::routes();
 Route::get('/403',function (){
     return view('errors.403');
 });
+Route ::get('/teacher',function(){
+	return view('home.search');
+});
