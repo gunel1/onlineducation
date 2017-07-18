@@ -26,7 +26,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/home/icon1.png" alt="">
                     </div>
-                    <h2><a href="{{URL::to('/teacher')}}">Müəllim Axtarışı</a></h2>
+                    <h2><a href="{{URL::to('service/teacher')}}">Müəllim Axtarışı</a></h2>
                     <p>Axtardığınız tədris və ya təhsil üzrə ən mükəmməl tədris proqramlarına malik müəllimləri görə bilərsiniz. Sadəcə daxil olub kateqoriyanızı müəyyənləşdirmək kifayətdir. </p>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
                         <img src="images/home/icon3.png" alt="">
                     </div>
-                    <h2><a href="planning.html">Planlaşdırma</a></h2>
+                    <h2><a href="{{URL::to('service/planning')}}">Planlaşdırma</a></h2>
                     <p>Uğura gedən yolda ən önəmli mərhələdən biri də özünüzü getdiyiniz yola fokuslamaq və işlərinizi gündəlik, hətta saatlıq planlama ilə etməkdir. Bu məsələlərdə təcrübəli mütəxəssislərimiz sizə dəstək olacaqlar.</p>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/services/1.png" alt="">
                     </div>
-                    <h2><a href="courses.html">Partnyor Kurslar</a></h2>
+                    <h2><a href="{{URL::to('service/courses')}}">Partnyor Kurslar</a></h2>
                     <p>Siz bizim köməyimizlə tərəfdaşlarımız olan və Azərbaycanda öndə gələn bəzi kurslara yazıla bilərsiniz. Bu kurslara Onlayn Təhsil layihəsinin köməyi ilə yazıldığınız üçün xüsusi güzəşt və təqaüdlər əldə edə bilərsiniz. Buyurun, kurslarımızla tanış olun.</p>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
                         <img src="images/services/2.png" alt="">
                     </div>
-                    <h2><a href="pdf_download.html">PDF Dərsliklər</a></h2>
+                    <h2><a href="{{URL::to('service/pdfdownload')}}">PDF Dərsliklər</a></h2>
                     <p>Hər birimiz biliyinimi daha da artırmaq üçün əlavə vəsaitlər axtarırıq. Artıq digər mənbələrdən axtarmağınıza ehtiyyac yoxdur. Çünki istədiyiniz fənnlər və digər kateqoriyalar üzrə PDF mövzu dərsliklərini tam ödənişsiz yükləyib oxuya bilərsiniz.</p>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
                         <img src="images/services/3.png" alt="">
                     </div>
-                    <h2><a href="next.html">İmtahan Tarixləri</a></h2>
+                    <h2><a href="{{URL::to('service/exam')}}">İmtahan Tarixləri</a></h2>
                     <p>Öncədən imtahanlara yaxşı hazırlaşmaq imtahanda qazanılan uğurun demək olar ki, 70%-dən də artıq bir hissəsini əldə etmək deməkdir. Ona görə də bu bölməmizdə bütün kateqoriyalar üzrə imtahan tarixlərinə qalan vaxtı dəqiqliklə öyrənə bilərsiniz.</p>
                 </div>
             </div>
