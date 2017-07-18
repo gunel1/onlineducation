@@ -216,7 +216,7 @@
                         <span>Create</span>
                     </a>
                     <ul class="sub">
-                        <li><a  href="general.html">Student</a></li>
+                        <li><a  href="admin/student">Student</a></li>
                         <li><a  href="buttons.html">Class</a></li>
                         <li><a  href="panels.html">Exam</a></li>
                     </ul>

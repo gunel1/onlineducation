@@ -38,7 +38,7 @@
                 </button>
 
                 <a class="navbar-brand" href={{URL::to('/')}}>
-                    <h1><img src="images/logo.png" alt="logo"></h1>
+                    <h1><img src="{{asset('/images/logo.png')}}" alt="logo"></h1>
                 </a>
 
             </div>
