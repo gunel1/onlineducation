@@ -9,7 +9,7 @@
                     <div class="col-md-6 col-sm-12 blog-padding-right">
                         <div class="single-blog two-column">
                             <div class="post-thumb">
-                                <img src="images/blog/timeline/pdf.png" class="img-responsive" alt="">
+                                <img src="{{URL::to('images/blog/timeline/pdf.png')}}" class="img-responsive" alt="">
                                 <div class="post-overlay">
                                     <span class="uppercase"><a href="#">09 <br><small>İyun</small></a></span>
                                 </div>
@@ -34,7 +34,7 @@
                     <div class="col-md-6 col-sm-12 blog-padding-right">
                         <div class="single-blog two-column">
                             <div class="post-thumb">
-                                <img src="images/blog/timeline/pdf.png" class="img-responsive" alt="">
+                                <img src="{{URL::to('images/blog/timeline/pdf.png')}}" class="img-responsive" alt="">
                                 <div class="post-overlay">
                                     <span class="uppercase"><a href="#">09 <br><small>İyun</small></a></span>
                                 </div>
@@ -59,7 +59,7 @@
                     <div class="col-md-6 col-sm-12 blog-padding-right">
                         <div class="single-blog two-column">
                             <div class="post-thumb">
-                                <img src="images/blog/timeline/pdf.png" class="img-responsive" alt="">
+                                <img src="{{URL::to('images/blog/timeline/pdf.png')}}" class="img-responsive" alt="">
                                 <div class="post-overlay">
                                     <span class="uppercase"><a href="#">09 <br><small>İyun</small></a></span>
                                 </div>
@@ -84,7 +84,7 @@
                     <div class="col-md-6 col-sm-12 blog-padding-right">
                         <div class="single-blog two-column">
                             <div class="post-thumb">
-                                <img src="images/blog/timeline/pdf.png" class="img-responsive" alt="">
+                                <img src="{{URL::to('images/blog/timeline/pdf.png')}}" class="img-responsive" alt="">
                                 <div class="post-overlay">
                                     <span class="uppercase"><a href="#">09 <br><small>İyun</small></a></span>
                                 </div>
@@ -109,7 +109,7 @@
                     <div class="col-md-6 col-sm-12 blog-padding-right">
                         <div class="single-blog two-column">
                             <div class="post-thumb">
-                                <img src="images/blog/timeline/pdf.png" class="img-responsive" alt="">
+                                <img src="{{URL::to('images/blog/timeline/pdf.png')}}" class="img-responsive" alt="">
                                 <div class="post-overlay">
                                     <span class="uppercase"><a href="#">09 <br><small>İyun</small></a></span>
                                 </div>
@@ -134,7 +134,7 @@
                     <div class="col-md-6 col-sm-12 blog-padding-right">
                         <div class="single-blog two-column">
                             <div class="post-thumb">
-                                <img src="images/blog/timeline/pdf.png" class="img-responsive" alt="">
+                                <img src="{{URL::to('images/blog/timeline/pdf.png')}}" class="img-responsive" alt="">
                                 <div class="post-overlay">
                                     <span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
                                 </div>
@@ -179,7 +179,7 @@
                         <h3>Sizin Fikirləriniz</h3>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/portfolio/project1.jpg" alt=""></a>
+                                <a href="#"><img src="{{URL::to('images/portfolio/project1.jpg')}}" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <h4><a href="#">Sizin Fikirləriniz</a></h4>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/portfolio/project2.jpg" alt=""></a>
+                                <a href="#"><img src="{{URL::to('images/portfolio/project2.jpg')}}" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <h4><a href="#">Sizin Fikirləriniz</a></h4>
@@ -197,7 +197,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/portfolio/project3.jpg" alt=""></a>
+                                <a href="#"><img src="{{URL::to('images/portfolio/project3.jpg')}}" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <h4><a href="#">Sizin Fikirləriniz</a></h4>
