@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AdminController extends Controller
+class TeacherController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,11 +13,12 @@ class AdminController extends Controller
      */
     public function __construct()
     {
-        $this->middleware(['auth','admin']);
+        $this->middleware(['auth','teacher']);
     }
     public function index(Request $request){
         return view('admin.master');
     }
+
     /**
      * Show the form for creating a new resource.
      *

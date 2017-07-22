@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', "Bizimlə Əlaqə|Onlayn Təhsil")
+@section('title', "Bizimlə Əlaqə | Onlayn Təhsil")
 
 @section('content')
 
@@ -25,28 +25,30 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="testimonial bottom">
-                    <h2>Fikirlərdən Bəziləri</h2>
-                    <div class="media">
-                        <div class="pull-left">
-                        </div>
-                        <div class="media-body">
-                            <blockquote>Siz həqiqətən də canavarsınız. Daha nə deyə bilərəm ki? <br/>Əhsən..</blockquote>
-                            <h3>- Misir Mərdanov</h3>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <div class="pull-left">
-                        </div>
-                        <div class="media-body">
-                            <blockquote>Azərbaycanın vitse-prezidenti olaraq sizin proyektinizi çox bəyənirəm. İşlərinizin davamını gətirin.</blockquote>
-                            <h3>- Mehriban Əliyeva</h3>
-                        </div>
-                    </div>
-                </div>
+                        <h2>Sosial Şəbəkələrdə Biz</h2>
+                        <div class="media">
+                            <div class="pull-left">
+                            </div>
+                            <div class="social-icons pull-center">
+                        <ul class="nav nav-pills">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div> 
+                         </div>
+                        <div class="media">
+                            <div class="pull-left">
+                            </div>
+                            
+                        </div>   
+                    </div> 
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="contact-info bottom">
-                    <h2>Əlaqə</h2>
+                    <h2><i class="fa fa-phone" aria-hidden="true"></i> Əlaqə </h2>
                     <address>
                         E-mail: <a href="mailto:info@onlayn-tehsil.com">info@onlayn-tehsil.com</a> <br>
                         <b>Bakcell</b> : +994 (55) 538 7503 <br>
@@ -54,7 +56,7 @@
                         <b>Azercell</b> : +994 (51) 538 7503 <br>
                     </address>
 
-                    <h2>Ünvan</h2>
+                    <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Ünvan</h2>
                     <address>
                         Nəsimi rayonu, 28 May metrosu <br>
                         Nizami küç., 203B <br>
@@ -65,7 +67,7 @@
             </div>
             <div class="col-md-4 col-sm-12">
                 <div class="contact-form bottom">
-                    <h2>Şikayət və ya Təklifiniz</h2>
+                    <h2><i class="fa fa-xing" aria-hidden="true"></i> Şikayət və ya Təklifiniz</h2>
                     <form id="main-contact-form" name="contact-form" method="post" action="{{URL::to('/sendemail')}}">
                         <input type="hidden" name="_token" value="{{csrf_token()}}">
                         <div class="form-group">

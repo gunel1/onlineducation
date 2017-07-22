@@ -17,22 +17,16 @@
 </head>
 
 <body>
-<header id="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 overflow">
-                <div class="social-icons pull-right">
-                    <ul class="nav nav-pills">
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <div style="height:text-align:right:">
+<span style="position:absolute;right:15px;top:10px; ">
+<a href="?lang=2"><img width="25px" src="images/icon/ru.png"/></a>
+</span>
+<span style="position:absolute;right:55px;top:10px; ">
+<a href="?lang=1"><img width="25px" src="images/icon/az.png"/></a>
+</span>
+
     </div>
+<header id="header">
     <div class="navbar navbar-inverse" role="banner">
         <div class="container">
             <div class="navbar-header">
@@ -44,7 +38,7 @@
                 </button>
 
                 <a class="navbar-brand" href={{URL::to('/')}}>
-                    <h1><img src="images/logo.png" alt="logo"></h1>
+                    <h1><img src="{{asset('/images/logo.png')}}" alt="logo"></h1>
                 </a>
 
             </div>
@@ -53,8 +47,10 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="{{ route('login') }}">Login</a></li>
-                        <li><a href="{{ route('register') }}">Register</a></li>
+                    <div class="login">
+                        <li><a href="{{ route('login') }}"><i class="fa fa-sign-in fa-3x" aria-hidden="true"></i> </a></li>
+                        <li><a href="{{ route('register') }}"><i class="fa fa-user-plus fa-3x" aria-hidden="true"></i></a></li>
+                        </div>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -66,7 +62,7 @@
                                     <a href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        Logout
+                                        Çıxış
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -78,20 +74,12 @@
                     @endif
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href={{URL::to('/home')}}><i class="fa fa-home"></i> Ana Səhifə</a></li>
+                    <li class="active"><a href={{URL::to('/')}}>Ana Səhifə</a></li>
                     <li><a href={{URL::to('/service')}}>Xidmətlərimiz</a></li>
                     <li><a href={{URL::to('/aboutus')}}>Haqqımızda</a></li>
                     <li><a href={{URL('/ourteam')}}>Komandamız</a></li>
                     <li><a href={{URL::to('/contact')}}>Bizimlə Əlaqə</a></li>
                 </ul>
-            </div>
-            <div class="search">
-                <form role="form">
-                    <i class="fa fa-search"></i>
-                    <div class="field-toggle">
-                        <input type="text" class="search-form" autocomplete="off" placeholder="Axtarış">
-                    </div>
-                </form>
             </div>
         </div>
     </div>
@@ -103,19 +91,7 @@
 
 
 
-<footer id="footer"><!--Footer-->
 
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <p></p>
-
-                <p class="pull-left">Created by Code Studio <img src="{{URL::to("images/logostudio.png") }}" class="logosa"> All Rights Reserved.</p>
-            </div>
-        </div>
-    </div>
-
-</footer><!--/Footer-->
 
 
 <script type="text/javascript" src={{asset("js/jquery.js")}}></script>
