@@ -1,21 +1,21 @@
 @extends('layouts.master')
 @section('title','Növbəti İmtahan | Onlayn Təhsil')
     @section('content')
-    <link rel="icon" href="images/icon/next.png">
+    <link rel="icon" href="{{URL::to('images/icon/next.png')}}">
 
 
 <span style="position:absolute;right:15px;top:10px; ">
-<a href="?lang=1"><img width="25px" src="images/icon/az.png"/></a>
+<a href="?lang=1"><img width="25px" src="{{URL::to('images/icon/az.png')}}"/></a>
 </span>
     <span style="position:absolute;right:55px;top:10px; ">
-<a href="?lang=2"><img width="25px" src="images/icon/ru.png"/></a>
+<a href="?lang=2"><img width="25px" src="{{URL::to('images/icon/ru.png')}}"/></a>
 </span>
     <span style="position:absolute;right:95px;top:10px; ">
-<a href="?lang=3"><img width="26px" src="images/icon/en.png"/></a>
+<a href="?lang=3"><img width="26px" src="{{URL::to('images/icon/en.png')}}"/></a>
         </span>
 </div>
 <div class="logo-image">
-    <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""> </a>
+    <a href="index.html"><img class="img-responsive" src="{{URL::to('images/logo.png')}}" alt=""> </a>
 </div>
 <section id="coming-soon">
     <div class="container">
