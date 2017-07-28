@@ -33,7 +33,9 @@ Route::get('/ourteam', function () {
 Route::get('/contact', function () {
     return view('home.contact');
 });
-
+Route::get('/profile-details', function () {
+    return view('home.profile-details');
+});
 Route::post('/sendemail','MailController@sendemail');
 
 Auth::routes();

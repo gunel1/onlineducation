@@ -16,16 +16,11 @@
                             </div>
                             <div class="post-content overflow">
                                 <h2 class="post-title bold"><a href="#">Dərsliyin Adı</a></h2>
-                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
+                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
                                 <div class="post-bottom overflow">
                                     <ul class="nav nav-justified post-nav">
                                         <li><a href="#"><i class="fa fa-download"></i>Yüklə</a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i>32 Bəyənmə</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i>3 Fikir</a></li>
+                                        <li><a href="#"><i class="fa fa-book"></i>Oxu</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,16 +36,11 @@
                             </div>
                             <div class="post-content overflow">
                                 <h2 class="post-title bold"><a href="#">Dərsliyin Adı</a></h2>
-                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
+                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
                                 <div class="post-bottom overflow">
                                     <ul class="nav nav-justified post-nav">
                                         <li><a href="#"><i class="fa fa-download"></i>Yüklə</a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i>32 Bəyənmə</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i>3 Fikir</a></li>
+                                        <li><a href="#"><i class="fa fa-book"></i>Oxu</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -66,16 +56,11 @@
                             </div>
                             <div class="post-content overflow">
                                 <h2 class="post-title bold"><a href="#">Dərsliyin Adı</a></h2>
-                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
+                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
                                 <div class="post-bottom overflow">
                                     <ul class="nav nav-justified post-nav">
                                         <li><a href="#"><i class="fa fa-download"></i>Yüklə</a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i>32 Bəyənmə</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i>3 Fikir</a></li>
+                                        <li><a href="#"><i class="fa fa-book"></i>Oxu</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,16 +76,11 @@
                             </div>
                             <div class="post-content overflow">
                                 <h2 class="post-title bold"><a href="#">Dərsliyin Adı</a></h2>
-                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
+                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
                                 <div class="post-bottom overflow">
                                     <ul class="nav nav-justified post-nav">
                                         <li><a href="#"><i class="fa fa-download"></i>Yüklə</a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i>32 Bəyənmə</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i>3 Fikir</a></li>
+                                        <li><a href="#"><i class="fa fa-book"></i>Oxu</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -116,16 +96,11 @@
                             </div>
                             <div class="post-content overflow">
                                 <h2 class="post-title bold"><a href="#">Dərsliyin Adı</a></h2>
-                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
+                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
                                 <div class="post-bottom overflow">
                                     <ul class="nav nav-justified post-nav">
                                         <li><a href="#"><i class="fa fa-download"></i>Yüklə</a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i>32 Bəyənmə</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i>3 Fikir</a></li>
+                                        <li><a href="#"><i class="fa fa-book"></i>Oxu</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -141,16 +116,11 @@
                             </div>
                             <div class="post-content overflow">
                                 <h2 class="post-title bold"><a href="#">Dərsliyin Adı</a></h2>
-                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı<br/>
-                                    Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
+                                <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
                                 <div class="post-bottom overflow">
                                     <ul class="nav nav-justified post-nav">
                                         <li><a href="#"><i class="fa fa-download"></i>Yüklə</a></li>
-                                        <li><a href="#"><i class="fa fa-heart"></i>32 Bəyənmə</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i>3 Fikir</a></li>
+                                        <li><a href="#"><i class="fa fa-book"></i>Oxu</a></li>
                                     </ul>
                                 </div>
                             </div>

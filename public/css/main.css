@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Comfortaa";
+    font-family: "Verdana";
     font-weight: 300;
     font-size: 14px;
     font-style: normal;
@@ -46,7 +46,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Comfortaa";
+    font-family: "Verdana";
     font-weight: bold;
   }
 
@@ -74,7 +74,7 @@
     font-size: 14px;
     color: #0099ae;
     border: 1px solid #0099ae;
-    font-family: "Comfortaa";
+    font-family: "Verdana";
     font-weight: 300;
     padding: 10px 25px;
   }
@@ -268,7 +268,7 @@
 }
 
 #header .navbar-nav.navbar-right >li a {
-  color: currentColor;
+  color: black;
   font-size: 13px;
   font-style: normal;
   padding: 20px;
@@ -441,7 +441,7 @@ ul.sub-menu {
   content: '"';
   font-size: 40px;
   color: #ea2c00;
-  font-family: "Comfortaa";
+  font-family: "Verdana";
   transform:rotate(180deg);
   -ms-transform:rotate(180deg); /* IE 9 */
   -webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
@@ -455,7 +455,7 @@ ul.sub-menu {
   content: '"';
   font-size: 40px;
   color: #ea2c00;
-  font-family: "Comfortaa";
+  font-family: "Verdana";
   line-height: 0;
 }
 
@@ -585,7 +585,7 @@ ul.sub-menu {
 
 #home-slider .slider-birds1 {
   position: absolute;
-  right: 570px;
+  right: 530px;
   bottom: 60px;
 }
 
@@ -1099,7 +1099,8 @@ ul.elements li > i{
 
 .portfolio-filter li a {
   border-radius: 0;
-  color: #686868;
+  background: none;
+  color: cornsilk;
   font-size: 18px;
   font-weight: 300;
   padding: 0 25px;
@@ -1206,8 +1207,8 @@ ul.elements li > i{
 .pagination .active a:focus, 
 .pagination a:focus {
   background: transparent;
-  border-color: #C03035;
-  color: #C03035;
+  border-color: lavender;
+  color: whitesmoke;
 }
 
 
@@ -1325,12 +1326,12 @@ Portfolio with right sidebar
 }
 
 .sidebar-item .media .media-body h4 a{
-  color: #7d7d7d;
+  color: white;
   font-size: 16px;
 }
 
 .sidebar-item .media .media-body p {
-  color: sienna;
+  color: cornsilk;
   font-size: 12px;
 }
 
@@ -1354,7 +1355,7 @@ Portfolio with right sidebar
 }
 
 .tag-cloud .nav-pills li a:hover{
-  background: #0099AE;
+  background: greenyellow;
 }
 
 .popular ul.gallery {
@@ -1634,7 +1635,7 @@ Blog Default
 
 .post-title a,
 .comments-number a{
-  color: red;
+  color: cornsilk;
 }
 
 .post-content .post-author{
@@ -1717,13 +1718,13 @@ Blog with right sidebar
 }
 
 .post-nav li a{
-  color: sienna;
+  color: yellow;
   padding: 0;
   text-align: left;
 }
 
 .post-nav li a i{
-  color: red;
+  color: white;
   margin-right: 8px;
 }
 
@@ -2456,7 +2457,7 @@ span.stButton_gradient,
   margin-bottom: 50px;
   margin-top: 50px;
   padding: 25px 53px;
-  font-family: "Comfortaa";
+  font-family: "Verdana";
 }
 
 .btn-error:hover, .btn-error:focus  {
@@ -2607,9 +2608,8 @@ span.stButton_gradient,
 
 
 #subscribe {
-  background-color: #565656;
   color: #FFFFFF;
-  padding: 40px 0 50px;
+  margin: 55px 0 30px;
 }
 
 #subscribe h2 {

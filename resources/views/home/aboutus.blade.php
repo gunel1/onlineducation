@@ -27,7 +27,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/services/everyone.png" alt="">
                     </div>
-                    <h2>Geniş Öyrənmə Resursu</h2>
+                    <h3>Geniş Öyrənmə Resursu</h3>
                     <p>Məlumat - Məlumat - Məlumat</p>
                 </div>
             </div>
@@ -36,8 +36,8 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
                         <img src="images/services/teacher.png" alt="">
                     </div>
-                    <h2>Repetitor üçün İnteraktiv Vasitə</h2>
-                    <p>Məlumat - Məlumat - Məlumat</p>
+                    <h3>Repetitor üçün İnteraktiv Vasitə</h3>
+                    <p>Məlumat - Məlumat - Məlumat</p> 
                 </div>
             </div>
             <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
@@ -45,7 +45,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
                         <img src="images/services/parents1.png" alt="">
                     </div>
-                    <h2>Valideyn Nəzarəti</h2>
+                    <h3>Valideyn Nəzarəti</h3>
                     <p>Məlumat - Məlumat - Məlumat</p>
                 </div>
             </div>

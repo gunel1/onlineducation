@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', "Ana Səhifə | MÜƏLLİM AXTARIŞI")
+@section('title', "Müəllim Axtarışı | Onlayn Təhsil")
 
 @section('content')
 
@@ -31,6 +31,26 @@
                                         </div>
                                         <div class="portfolio-view">
                                             <ul class="nav nav-pills">
+                                                <li><a href="{{URL::to('/profile-details')}}"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+
+<div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
                                                 <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
                                                 <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
                                             </ul>
@@ -42,6 +62,138 @@
                                 </div>
                             </div>
 
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 portfolio-item branded logos">
+                                <div class="portfolio-wrapper">
+                                    <div class="portfolio-single">
+                                        <div class="portfolio-thumb">
+                                            <img src="{{URL::to('images/portfolio/1.jpg')}}" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="portfolio-view">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="profile-details.html"><i class="fa fa-info"></i></a></li>
+                                                <li><a href="{{URL::to('images/portfolio/1.jpg')}}" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-info ">
+                                        <h2>Müəllimin Adı, Soyadı</h2>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="portfolio-pagination">

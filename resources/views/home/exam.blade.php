@@ -2,29 +2,9 @@
 @section('title','Növbəti İmtahan | Onlayn Təhsil')
     @section('content')
     <link rel="icon" href="{{URL::to('images/icon/next.png')}}">
-
-
-<span style="position:absolute;right:15px;top:10px; ">
-<a href="?lang=1"><img width="25px" src="{{URL::to('images/icon/az.png')}}"/></a>
-</span>
-    <span style="position:absolute;right:55px;top:10px; ">
-<a href="?lang=2"><img width="25px" src="{{URL::to('images/icon/ru.png')}}"/></a>
-</span>
-    <span style="position:absolute;right:95px;top:10px; ">
-<a href="?lang=3"><img width="26px" src="{{URL::to('images/icon/en.png')}}"/></a>
-        </span>
-</div>
-<div class="logo-image">
-    <a href="index.html"><img class="img-responsive" src="{{URL::to('images/logo.png')}}" alt=""> </a>
-</div>
 <section id="coming-soon">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <div class="text-center coming-content">
-                    <h1>Növbəti İmtahana Qalan Vaxt</h1>
-                </div>
-            </div>
             <div class="col-sm-12">
                 <div class="time-count">
                     <ul id="countdown">
@@ -72,7 +52,7 @@
 </section>
     <script>
     $("#countdown").countdown({
-            date: "15 july 2018 17:52:00",
+            date: "01 august 2017 13:00:00",
             format: "on"
         },
         function() {

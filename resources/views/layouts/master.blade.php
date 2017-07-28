@@ -19,10 +19,10 @@
 <body>
     <div style="height:text-align:right:">
 <span style="position:absolute;right:15px;top:10px; ">
-<a href="?lang=2"><img width="25px" src="images/icon/ru.png"/></a>
+<a href="?lang=2"><img width="25px" src="{{URL::to('images/icon/ru.png')}}"/></a>
 </span>
 <span style="position:absolute;right:55px;top:10px; ">
-<a href="?lang=1"><img width="25px" src="images/icon/az.png"/></a>
+<a href="?lang=1"><img width="25px" src="{{URL::to('images/icon/az.png')}}"/></a>
 </span>
 
     </div>
@@ -74,11 +74,11 @@
                     @endif
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href={{URL::to('/')}}>Ana Səhifə</a></li>
-                    <li><a href={{URL::to('/service')}}>Xidmətlərimiz</a></li>
-                    <li><a href={{URL::to('/aboutus')}}>Haqqımızda</a></li>
-                    <li><a href={{URL('/ourteam')}}>Komandamız</a></li>
-                    <li><a href={{URL::to('/contact')}}>Bizimlə Əlaqə</a></li>
+                    <li class="active"><a href={{URL::to('/')}}><img width="60px" src="{{URL::to('images/nav-bar/home.png')}}"/></a></li>
+                    <li><a href={{URL::to('/service')}}><img width="60px" src="{{URL::to('images/nav-bar/services.png')}}"/></a></li>
+                    <li><a href={{URL::to('/aboutus')}}><img width="60px" src="{{URL::to('images/nav-bar/aboutus.png')}}"/></a></li>
+                    <li><a href={{URL('/ourteam')}}><img width="60px" src="{{URL::to('images/nav-bar/ourteam.png')}}"/></a></li>
+                    <li><a href={{URL::to('/contact')}}><img width="60px" src="{{URL::to('images/nav-bar/contact.png')}}"/></a></li>
                 </ul>
             </div>
         </div>
@@ -93,7 +93,7 @@
 
 
 
-
+ <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
 <script type="text/javascript" src={{asset("js/jquery.js")}}></script>
 <script type="text/javascript" src={{asset("js/bootstrap.min.js")}}></script>
 <script type="text/javascript" src={{asset("js/lightbox.min.js")}}></script>

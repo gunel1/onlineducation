@@ -183,9 +183,19 @@
             </ul>
             <!--  notification end -->
         </div>
-        <div class="top-menu">
+           <div class="top-menu">
             <ul class="nav pull-right top-menu">
-                <li><a class="logout" href="login.html">Logout</a></li>
+                <li>
+                    <a href="{{ route('logout') }}" class="logout"
+                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                        @lang('words.logout')
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        {{ csrf_field() }}
+                    </form>
+                </li>
             </ul>
         </div>
     </header>
