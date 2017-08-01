@@ -38,10 +38,9 @@
     <!--header start-->
     <header class="header black-bg">
         <div class="sidebar-toggle-box">
-            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
         </div>
         <!--logo start-->
-        <a href="index.html" class="logo"><b>DASHGUM FREE</b></a>
+        <a href="index.html" class="logo"><b>ŞƏXSİ KABİNET</b></a>
         <!--logo end-->
         <div class="nav notify-row" id="top_menu">
             <!--  notification start -->
@@ -49,18 +48,18 @@
                 <!-- settings start -->
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                        <i class="fa fa-tasks"></i>
+                        <i class="fa fa-envelope-o"></i>
                         <span class="badge bg-theme">4</span>
                     </a>
                     <ul class="dropdown-menu extended tasks-bar">
                         <div class="notify-arrow notify-arrow-green"></div>
                         <li>
-                            <p class="green">You have 4 pending tasks</p>
+                            <p class="green">4 ədəd Göndərilən Məlumatınız var</p>
                         </li>
                         <li>
                             <a href="index.html#">
                                 <div class="task-info">
-                                    <div class="desc">DashGum Admin Panel</div>
+                                    <div class="desc">Cəbrdən Testlər</div>
                                     <div class="percent">40%</div>
                                 </div>
                                 <div class="progress progress-striped">
@@ -189,7 +188,7 @@
                     <a href="{{ route('logout') }}" class="logout"
                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                        @lang('words.logout')
+                        @lang('Çıxış')
                     </a>
 
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -330,9 +329,9 @@
     $(document).ready(function () {
         var unique_id = $.gritter.add({
             // (string | mandatory) the heading of the notification
-            title: 'Welcome to Dashgum!',
+            title: 'Salam, Şəxsi Kabinetinizə',
             // (string | mandatory) the text inside the notification
-            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo. Free version for <a href="http://blacktie.co" target="_blank" style="color:#ffd777">BlackTie.co</a>.',
+            text: 'Xoş Gəlmisiniz !',
             // (string | optional) the image to display on the left
             image: 'assets/img/ui-sam.jpg',
             // (bool | optional) if you want it to fade out on its own or just sit there

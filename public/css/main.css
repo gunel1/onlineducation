@@ -268,7 +268,7 @@
 }
 
 #header .navbar-nav.navbar-right >li a {
-  color: black;
+  color: whitesmoke;
   font-size: 13px;
   font-style: normal;
   padding: 20px;
@@ -1101,7 +1101,7 @@ ul.elements li > i{
   border-radius: 0;
   background: none;
   color: cornsilk;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   padding: 0 25px;
   text-transform: capitalize;
@@ -1355,7 +1355,9 @@ Portfolio with right sidebar
 }
 
 .tag-cloud .nav-pills li a:hover{
-  background: greenyellow;
+  background: khaki;
+    color: black; 
+    font-weight: bold;
 }
 
 .popular ul.gallery {
@@ -1718,7 +1720,7 @@ Blog with right sidebar
 }
 
 .post-nav li a{
-  color: yellow;
+  color: lavenderblush;
   padding: 0;
   text-align: left;
 }

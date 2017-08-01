@@ -111,7 +111,7 @@
                             <div class="post-thumb">
                                 <img src="{{URL::to('images/blog/timeline/pdf.png')}}" class="img-responsive" alt="">
                                 <div class="post-overlay">
-                                    <span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
+                                    <span class="uppercase"><a href="#">14 <br><small>Mart</small></a></span>
                                 </div>
                             </div>
                             <div class="post-content overflow">
@@ -119,7 +119,7 @@
                                 <p>Dərsliyin Əhatə Etdiyi Mövzu Aralığı</p>
                                 <div class="post-bottom overflow">
                                     <ul class="nav nav-justified post-nav">
-                                        <li><a href="#"><i class="fa fa-download"></i>Yüklə</a></li>
+                                        <li><a href="#"><i class="fa fa-download "></i>Yüklə</a></li>
                                         <li><a href="#"><i class="fa fa-book"></i>Oxu</a></li>
                                     </ul>
                                 </div>

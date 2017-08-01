@@ -12,7 +12,6 @@
     <link href={{asset("css/lightbox.css" )}}rel="stylesheet">
     <link href={{asset("css/main.css")}} rel="stylesheet">
     <link href={{asset("css/responsive.css")}} rel="stylesheet">
-    <link href={{asset("css/style2.css")}} rel="stylesheet">
     <link rel="icon" href={{asset("images/icon/home.png")}}>
 </head>
 

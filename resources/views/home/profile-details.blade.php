@@ -1,23 +1,9 @@
 @extends('layouts.master')
 
-@section('title', "Bizimlə Əlaqə | Onlayn Təhsil")
+@section('title', "Müəllimin Məlumatları | Onlayn Təhsil")
 
 @section('content')
 
-    <section id="page-breadcrumb">
-        <div class="vertical-center sun">
-             <div class="container">
-                <div class="row">
-                    <div class="action">
-                        <div class="col-sm-12">
-                            <h1 class="title">Müəllimin Şəxsi Məlumatları</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-   </section>
-    <!--/#action-->
 
     <section id="portfolio-information" class="padding-top">
         <div class="container">
@@ -29,7 +15,7 @@
                     <div class="project-name overflow">
                         <h2 class="bold">İsaak Nyuton </h2>
                     </div> 
-                        <p>06 Mart 1882-ci ildə Ağstafa şəhərində anadan olmuşam. Orta təhsilimə Ağstafa şəhər 2 saylı tam orta məktəbdə başlamış, Bakı şəhəri, kimya-biologiya təmayüllü liseydə bitirmişəm. Azərbaycan Dövlət Pedoqoji Universitetinin "Riyaziyyat Müəllimliyi" fakültəsini bitirmişəm. 2014-cü ildən şagird və abituriyent hazırlıqları ilə məşğulam. Nəticələrimlə aşağıdakı bölmədə tanış ola bilərsiniz.
+                        <p>06 Mart 1882-ci ildə Ağstafa şəhərində anadan olmuşam. Orta təhsilimə Ağstafa şəhər 2 saylı tam orta məktəbdə başlamış, Bakı şəhəri, kimya-biologiya təmayüllü liseydə bitirmişəm. Azərbaycan Dövlət Pedoqoji Universitetinin "Riyaziyyat Müəllimliyi" fakültəsini bitirmişəm. 2014-cü ildən şagird və abituriyent hazırlıqları ilə məşğulam. Arada belə bekar da oluram. Sədərəkdə şəxsi dükan işlədirəm. Banka üçün dəmir qapaqlar satıram. Nəticələrimlə və daha ətraflı aşağıdakı bölmədə tanış ola bilərsiniz.
                     <p><b>Üstünlüklərim</b></p>
                         <ul class="elements">
                             <li><i class="fa fa-angle-right"></i>Məlumat - Məlumat -Məlumat</li>
@@ -37,17 +23,8 @@
                             <li><i class="fa fa-angle-right"></i>Məlumat - Məlumat -Məlumat</li>
                         </ul>
                     </div>
-                    <div class="skills overflow">
-                        <h3>Tədris Fənnləri:</h3>
-                        <ul class="nav navbar-nav navbar-default">
-                            <li><a href="#"><i class="fa fa-check-square"></i>Design</a></li>
-                            <li><a href="#"><i class="fa fa-check-square"></i>HTML/CSS</a></li>
-                            <li><a href="#"><i class="fa fa-check-square"></i>Javascript</a></li>
-                            <li><a href="#"><i class="fa fa-check-square"></i>Backend</a></li>
-                        </ul>
-                    </div>
                 <div class="live-preview">
-                        <a href="#" class="btn btn-common uppercase">Qeydiyyat</a>
+                    <a href="#" class="btn btn-common uppercase"><b>QEYDİYYAT</b></a>
                     </div>
                 </div>
         </div>
