@@ -8,7 +8,7 @@
         <div class="row">
             <div class="main-slider">
                 <div class="slide-text">
-                    <h1>Onlayn Təhsil Mərkəzi</h1>
+                    <h1>@lang('words.oec')</h1>
                     <p>&nbsp;&nbsp;Qəbul və digər imtahanlara hazırlaşmaq üçün xidmətinizdəyik. <br/>&nbsp;&nbsp;Keyfiyyətli təhsili, savadlı müəllim axtarışını və sizə bu yolda <br/>kömək olacaq digər vasitələri sadəcə <a href="#">www.onlayn-tehsil.com</a> saytına baş çəkərək əldə edə bilərsiniz.</p>
                 </div>
                 <img src="images/slider/general.png" class="slider-hill" alt="slider image">

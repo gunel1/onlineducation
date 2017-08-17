@@ -10,64 +10,65 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
-Route::get('/', function () {
-    return view('home.index');
-});
-Route::get('/home', function () {
-    return view('home.index');
-});
-Route::get('/userpanel', function () {
-    return view('home.index');
-});
-Route::get('/aboutus', function () {
-    return view('home.aboutus');
-});
-
-
-Route::get('/ourteam', function () {
-    return view('home.ourteam');
-});
-
-Route::get('/contact', function () {
-    return view('home.contact');
-});
-
-Route::post('/sendemail','MailController@sendemail');
-
-Auth::routes();
-
-//Route::get('/admin', 'HomeController@index')->name('home');
-Route::get('/403',function (){
-    return view('errors.403');
-});
-
-Route::group(['prefix' => 'service'], function () {
-
+Route::group(['middleware' => ['web']], function () {
+    Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 
     Route::get('/', function () {
-        return view('home.service');
+        return view('home.index');
+    });
+    Route::get('/home', function () {
+        return view('home.index');
+    });
+    Route::get('/userpanel', function () {
+        return view('home.index');
+    });
+    Route::get('/aboutus', function () {
+        return view('home.aboutus');
     });
 
-    Route::get('/teacher', function () {
-        return view('home.search');
+
+    Route::get('/ourteam', function () {
+        return view('home.ourteam');
     });
-    Route::get('/exam', function () {
-        return view('home.exam');
+
+    Route::get('/contact', function () {
+        return view('home.contact');
     });
-    Route::get('/planning', function () {
-        return view('home.planning');
+
+    Route::post('/sendemail', 'MailController@sendemail');
+
+    Auth::routes();
+
+//Route::get('/admin', 'HomeController@index')->name('home');
+    Route::get('/403', function () {
+        return view('errors.403');
     });
-    Route::get('/pdfdownload', function () {
-        return view('home.pdfdownload');
+
+    Route::group(['prefix' => 'service'], function () {
+
+
+        Route::get('/', function () {
+            return view('home.service');
+        });
+
+        Route::get('/teacher', function () {
+            return view('home.search');
+        });
+        Route::get('/exam', function () {
+            return view('home.exam');
+        });
+        Route::get('/planning', function () {
+            return view('home.planning');
+        });
+        Route::get('/pdfdownload', function () {
+            return view('home.pdfdownload');
+        });
+        Route::get('/courses', function () {
+            return view('home.courses');
+        });
     });
-    Route::get('/courses', function () {
-        return view('home.courses');
-    });
+
 });
-
-
 
 Route::group(['prefix' => 'adminpanel'], function () {
 

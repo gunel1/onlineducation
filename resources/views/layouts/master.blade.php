@@ -17,14 +17,26 @@
 </head>
 
 <body>
-    <div style="height:text-align:right:">
-<span style="position:absolute;right:15px;top:10px; ">
-<a href="?lang=2"><img width="25px" src="images/icon/ru.png"/></a>
-</span>
-<span style="position:absolute;right:55px;top:10px; ">
-<a href="?lang=1"><img width="25px" src="images/icon/az.png"/></a>
-</span>
 
+
+
+
+    <div style="height:text-align:right:"><span style="position:absolute;right:15px;top:10px; ">
+      @foreach (Config::get('languages') as $lang => $language)
+                @if ($lang != App::getLocale())
+                    @php
+                        switch($lang){
+                            case  'en' :  echo ' <a href="'.route('lang.switch', $lang).'"><img width="25px" src="images/icon/en.png"/></a>';
+                                          break;
+                            case  'ru':    echo ' <a href="'.route('lang.switch', $lang).'"><img width="25px" src="images/icon/ru.png"/></a>';
+                                          break;
+                            case  'az':    echo ' <a href="'.route('lang.switch', $lang).'"><img width="25px" src="images/icon/az.png"/></a>';
+                                          break;
+                          }
+                    @endphp
+
+                @endif
+            @endforeach
     </div>
 <header id="header">
     <div class="navbar navbar-inverse" role="banner">
@@ -74,11 +86,11 @@
                     @endif
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href={{URL::to('/')}}>Ana Səhifə</a></li>
-                    <li><a href={{URL::to('/service')}}>Xidmətlərimiz</a></li>
-                    <li><a href={{URL::to('/aboutus')}}>Haqqımızda</a></li>
-                    <li><a href={{URL('/ourteam')}}>Komandamız</a></li>
-                    <li><a href={{URL::to('/contact')}}>Bizimlə Əlaqə</a></li>
+                    <li class="active"><a href={{URL::to('/')}}>@lang('words.home')</a></li>
+                    <li><a href={{URL::to('/service')}}>@lang('words.service')</a></li>
+                    <li><a href={{URL::to('/aboutus')}}>@lang('words.about')</a></li>
+                    <li><a href={{URL('/ourteam')}}>@lang('words.team')</a></li>
+                    <li><a href={{URL::to('/contact')}}>@lang('words.contact')</a></li>
                 </ul>
             </div>
         </div>
