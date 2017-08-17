@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <div class="panel-heading" align="center"><i class="fa fa-user-plus fa-1x" aria-hidden="true"></i><b> Qeydiyyatdan Keçin</b></div>
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
@@ -92,9 +92,9 @@
 
                             <div class="col-md-6">
                                 <select type="text" name="category" placeholder="Kateqoriyanız" class="r-form-last-name form-control" id="category">
-                                    <option value="1"> - Repetitor Kimi Fəaliyyət</option>
-                                    <option value="2"> - Təhsil Almaq İstəyirəm</option>
-                                    <option value="3"> - Valideyn Kimi Fəaliyyət</option>
+                                    <option value="1"> - Təhsil Alan</option>
+                                    <option value="2"> - Repetitor</option>
+                                    <option value="3"> - Valideyn</option>
                                     </select>
 
                                 @if ($errors->has('name'))

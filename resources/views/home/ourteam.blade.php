@@ -81,7 +81,7 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="images/aboutus/22.png" class="img-responsive" alt="">
+                                            <img src="images/aboutus/33.png" class="img-responsive" alt="">
                                         </div>
                                         <div class="social-profile">
                                             <ul class="nav nav-pills">
@@ -92,7 +92,7 @@
                                         </div>
                                     </div>
                                     <div class="person-info">
-                                        <h3>AD, SOYAD</h3>
+                                        <h3>GÜNEL İBRAHİMXƏLİLOVA</h3>
                                         <p>Veb Proqramçı</p>
                                     </div>
                                 </div>
@@ -114,8 +114,8 @@
                                         </div>
                                     </div>
                                     <div class="person-info">
-                                        <h3>AD, SOYAD</h3>
-                                        <p>Azərbaycan Bölməsi üzrə Moderator</p>
+                                        <h3>ORXAN KAZIMZADƏ</h3>
+                                        <p>Azərbaycan Bölməsi - Baş Moderator</p>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
                                     </div>
                                     <div class="person-info">
                                         <h3>AD, SOYAD</h3>
-                                        <p>Azərbaycan Bölməsi üzrə Moderator</p>
+                                        <p>Azərbaycan Bölməsi - Moderator</p>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@
                                     </div>
                                     <div class="person-info">
                                         <h3>FƏRİD ABBASLI</h3>
-                                        <p>Rus Bölməsi üzrə Moderator</p>
+                                        <p>Rus Bölməsi - Baş Moderator</p>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                     </div>
                                     <div class="person-info">
                                         <h3>AD, SOYAD</h3>
-                                        <p>Rus Bölməsi üzrə Moderator</p>
+                                        <p>Rus Bölməsi - Moderator</p>
                                     </div>
                                 </div>
                             </div>

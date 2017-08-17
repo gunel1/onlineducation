@@ -27,7 +27,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/services/everyone.png" alt="">
                     </div>
-                    <h2>Geniş Öyrənmə Resursu</h2>
+                    <h3>Geniş Öyrənmə Resursu</h3>
                     <p>Məlumat - Məlumat - Məlumat</p>
                 </div>
             </div>
@@ -36,8 +36,8 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
                         <img src="images/services/teacher.png" alt="">
                     </div>
-                    <h2>Repetitor üçün İnteraktiv Vasitə</h2>
-                    <p>Məlumat - Məlumat - Məlumat</p>
+                    <h3>Repetitor üçün İnteraktiv Vasitə</h3>
+                    <p>Məlumat - Məlumat - Məlumat</p> 
                 </div>
             </div>
             <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
@@ -45,7 +45,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
                         <img src="images/services/parents1.png" alt="">
                     </div>
-                    <h2>Valideyn Nəzarəti</h2>
+                    <h3>Valideyn Nəzarəti</h3>
                     <p>Məlumat - Məlumat - Məlumat</p>
                 </div>
             </div>
@@ -61,13 +61,14 @@
         <div class="row">
             <div class="about-us">
                 <div class="col-sm-7 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h2 class="bold">Məqsəd və Hədəfimiz</h2>
+                    <h2 class="bold">Niyə Bizi Seçməlisiniz?</h2>
                     <div class="row">
                         <div class="col-sm-5">
                             <img src="images/services/who.png" class="img-responsive" alt="">
                         </div>
                         <div class="col-sm-7">
-                            <h3 class="top-zero">Niyə Bizi Seçməlisiniz?</h3>
+                            <br>
+                            <br>
                             <p>&nbsp;&nbsp;Onlayn Təhsil Mərkəzi olaraq bizim mümkün olan ən yaxşı təhsil texnologiyasını yaratmaq və dəstəkləmək mövzusunda istəyimiz vardır. Uşaqlardan yeniyetmələrə, milyonlarla şagirdin və ümumi insanların istifadə edəcəyi ən keyfiyyətli işləri inkişaf etdiririk. Daha yaxşı bir sabah üçün bu gündən öyrənməyə başlaya bilərsiniz. Layihənin tərkibində həftəlik və aylıq yenilənən imtahanlar və mövzular üzrə dərsliklər yerləşir ki, bu da biliyinizi daimi məşq etdirməyinizə köməklik yaradacaq.    
                             </p>
                         </div>

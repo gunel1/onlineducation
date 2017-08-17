@@ -12,11 +12,20 @@
     <link href={{asset("css/lightbox.css" )}}rel="stylesheet">
     <link href={{asset("css/main.css")}} rel="stylesheet">
     <link href={{asset("css/responsive.css")}} rel="stylesheet">
-    <link href={{asset("css/style2.css")}} rel="stylesheet">
     <link rel="icon" href={{asset("images/icon/home.png")}}>
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
+    <div style="height:text-align:right:">
+<span style="position:absolute;right:15px;top:10px; ">
+<a href="?lang=2"><img width="25px" src="{{URL::to('images/icon/ru.png')}}"/></a>
+</span>
+<span style="position:absolute;right:55px;top:10px; ">
+<a href="?lang=1"><img width="25px" src="{{URL::to('images/icon/az.png')}}"/></a>
+</span>
+>>>>>>> ba5326d3102b0954f3654f355b3e6ee8ba5c1c0c
 
 
 
@@ -86,11 +95,19 @@
                     @endif
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
                     <li class="active"><a href={{URL::to('/')}}>@lang('words.home')</a></li>
                     <li><a href={{URL::to('/service')}}>@lang('words.service')</a></li>
                     <li><a href={{URL::to('/aboutus')}}>@lang('words.about')</a></li>
                     <li><a href={{URL('/ourteam')}}>@lang('words.team')</a></li>
                     <li><a href={{URL::to('/contact')}}>@lang('words.contact')</a></li>
+=======
+                    <li class="active"><a href={{URL::to('/')}}><img width="60px" src="{{URL::to('images/nav-bar/home.png')}}"/></a></li>
+                    <li><a href={{URL::to('/service')}}><img width="60px" src="{{URL::to('images/nav-bar/services.png')}}"/></a></li>
+                    <li><a href={{URL::to('/aboutus')}}><img width="60px" src="{{URL::to('images/nav-bar/aboutus.png')}}"/></a></li>
+                    <li><a href={{URL('/ourteam')}}><img width="60px" src="{{URL::to('images/nav-bar/ourteam.png')}}"/></a></li>
+                    <li><a href={{URL::to('/contact')}}><img width="60px" src="{{URL::to('images/nav-bar/contact.png')}}"/></a></li>
+>>>>>>> ba5326d3102b0954f3654f355b3e6ee8ba5c1c0c
                 </ul>
             </div>
         </div>
@@ -105,7 +122,7 @@
 
 
 
-
+ <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
 <script type="text/javascript" src={{asset("js/jquery.js")}}></script>
 <script type="text/javascript" src={{asset("js/bootstrap.min.js")}}></script>
 <script type="text/javascript" src={{asset("js/lightbox.min.js")}}></script>

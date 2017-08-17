@@ -30,11 +30,13 @@ jQuery(function($) {'use strict';
 		}
 
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
-		
-		if($portfolio_selectors.length) {
+		$.getScript("/onlineducation/public/js/jquery.isotope.min.js", function(){
+if($portfolio_selectors.length) {
 			
 			var $portfolio = $('.portfolio-items');
-			$portfolio.isotope({
+			
+
+$portfolio.isotope({
 				itemSelector : '.portfolio-item',
 				layoutMode : 'fitRows'
 			});
@@ -49,6 +51,9 @@ jQuery(function($) {'use strict';
 		}
 
 	});
+		});
+
+		
 
 
 	$('.timer').each(count);
@@ -68,17 +73,13 @@ jQuery(function($) {'use strict';
 	form.submit(function(event){
 		event.preventDefault();
 		var form_status = $('<div class="form_status"></div>');
-        var token = $('input[name=_token]').val();
-        var dataString = $(this).serialize();
 		$.ajax({
-            type: "POST",
-            url: $(this).attr('action'),
-            data: {_token: token, message: $('#message').val() , name:$('#name').val(), email: $('#email').val()},
+			url: $(this).attr('action'),
 			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email gonderilir...</p>').fadeIn() );
+				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
 			}
 		}).done(function(data){
-			form_status.html('<p class="text-success">Mesajiniz ucun tesekkur edirik. Tezlikle size donus olacaqdir</p>').delay(3000).fadeOut();
+			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
 		});
 	});
 

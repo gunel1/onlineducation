@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+                <div class="panel-heading" align="center"><i class="fa fa-sign-in fa-1x" aria-hidden="true"></i><b> Şəxsi Kabinetə Giriş</b></div>
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
@@ -42,7 +42,7 @@
                             <div class="col-md-6 col-md-offset-4">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
+                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Hesabımı Yadda Saxla
                                     </label>
                                 </div>
                             </div>
@@ -64,8 +64,8 @@
                                 və ya <a class="btn btn-link-1" href="#"><i class="fa fa-facebook"></i></a>
                                 <a class="btn btn-link-1" href="#"><i class="fa fa-twitter"></i></a>
                                 <a class="btn btn-link-1" href="#"><i class="fa fa-google-plus"></i></a>
-                                <a class="btn btn-link-1" href="#"><i class="fa fa-instagram"></i></a> ilə
-                                <p>Daxil Ol</p>
+                                <a class="btn btn-link-1" href="#"><i class="fa fa-instagram"></i></a> ilə  Daxil Ol
+                                
                             </div>
                         </div>
                     </form>
