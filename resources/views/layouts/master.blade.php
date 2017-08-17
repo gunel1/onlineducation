@@ -16,19 +16,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
-    <div style="height:text-align:right:">
-<span style="position:absolute;right:15px;top:10px; ">
-<a href="?lang=2"><img width="25px" src="{{URL::to('images/icon/ru.png')}}"/></a>
-</span>
-<span style="position:absolute;right:55px;top:10px; ">
-<a href="?lang=1"><img width="25px" src="{{URL::to('images/icon/az.png')}}"/></a>
-</span>
->>>>>>> ba5326d3102b0954f3654f355b3e6ee8ba5c1c0c
-
-
-
 
     <div style="height:text-align:right:"><span style="position:absolute;right:15px;top:10px; ">
       @foreach (Config::get('languages') as $lang => $language)
@@ -95,19 +82,13 @@
                     @endif
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-<<<<<<< HEAD
+
                     <li class="active"><a href={{URL::to('/')}}>@lang('words.home')</a></li>
                     <li><a href={{URL::to('/service')}}>@lang('words.service')</a></li>
                     <li><a href={{URL::to('/aboutus')}}>@lang('words.about')</a></li>
                     <li><a href={{URL('/ourteam')}}>@lang('words.team')</a></li>
                     <li><a href={{URL::to('/contact')}}>@lang('words.contact')</a></li>
-=======
-                    <li class="active"><a href={{URL::to('/')}}><img width="60px" src="{{URL::to('images/nav-bar/home.png')}}"/></a></li>
-                    <li><a href={{URL::to('/service')}}><img width="60px" src="{{URL::to('images/nav-bar/services.png')}}"/></a></li>
-                    <li><a href={{URL::to('/aboutus')}}><img width="60px" src="{{URL::to('images/nav-bar/aboutus.png')}}"/></a></li>
-                    <li><a href={{URL('/ourteam')}}><img width="60px" src="{{URL::to('images/nav-bar/ourteam.png')}}"/></a></li>
-                    <li><a href={{URL::to('/contact')}}><img width="60px" src="{{URL::to('images/nav-bar/contact.png')}}"/></a></li>
->>>>>>> ba5326d3102b0954f3654f355b3e6ee8ba5c1c0c
+
                 </ul>
             </div>
         </div>

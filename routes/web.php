@@ -31,21 +31,16 @@ Route::group(['middleware' => ['web']], function () {
         return view('home.ourteam');
     });
 
-<<<<<<< HEAD
     Route::get('/contact', function () {
         return view('home.contact');
     });
 
     Route::post('/sendemail', 'MailController@sendemail');
-=======
-Route::get('/contact', function () {
-    return view('home.contact');
-});
+
 Route::get('/profile-details', function () {
     return view('home.profile-details');
 });
-Route::post('/sendemail','MailController@sendemail');
->>>>>>> ba5326d3102b0954f3654f355b3e6ee8ba5c1c0c
+
 
     Auth::routes();
 
