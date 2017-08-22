@@ -44,11 +44,6 @@ Route::get('/profile-details', function () {
 
     Auth::routes();
 
-//Route::get('/admin', 'HomeController@index')->name('home');
-    Route::get('/403', function () {
-        return view('errors.403');
-    });
-
     Route::group(['prefix' => 'service'], function () {
 
 
@@ -60,7 +55,10 @@ Route::get('/profile-details', function () {
             return view('home.search');
         });
         Route::get('/exam', function () {
-            return view('home.exam');
+            return view('exam.index');
+        });
+        Route::get('/exam/feedback', function () {
+            return view('exam.feedback');
         });
         Route::get('/planning', function () {
             return view('home.planning');

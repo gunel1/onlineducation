@@ -35,7 +35,7 @@
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
                         <img src="images/home/icon2.png" alt="">
                     </div>
-                    <h2><a href="exam.html">Onlayn İmtahan</a></h2>
+                    <h2><a href="{{URL::to('service/exam')}}">Onlayn İmtahan</a></h2>
                     <p>Hər bir fənn və digər kateqoriyalar üzrə hər hətfə yenilənən MQİ və ay ərzində 2 dəfə ÜQİ ilə özünüzü imtahana maksimum hazırlayın. Unutmayın ki, uğur bircə addımlığınıdadır. </p>
                 </div>
             </div>
